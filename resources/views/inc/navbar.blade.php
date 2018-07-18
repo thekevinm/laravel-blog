@@ -39,16 +39,16 @@
 
                     </ul>
 
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mc-auto">
                             <li class="nav-item">
                               <a class="nav-link" href="/" style="color: silver;">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                               <a class="nav-link" href="/about" style="color: silver;">About</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="/services" style="color: silver;">Services</a>
-                            </li>
+                            </li> --}}
                             <li class="nav-item">
                                 <a class="nav-link" href="/posts" style="color: silver;">Blog</a>
                             </li>
