@@ -3,6 +3,9 @@
 @section('content')
     <a href="/posts" style="position: absolute; margin-left: 62%;"><button class="btn btn-default" style="color: rgb(46,124,246);">Go Back</button></a>
     <h1 style="margin-top:80px;">{{$post->title}}</h1>
+    <img style="width: 50%;height: 50%;" src="/storage/cover_images/{{$post->cover_image}}">
+    <br>
+    <br>
     <div style="margin-top:3%;">
         {{$post->body}}
     </div>
