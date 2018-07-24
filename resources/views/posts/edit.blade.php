@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    <a href="javascript:history.back()" style="position: absolute; margin-left: 62%;"><button class="btn btn-default" style="color: rgb(46,124,246);">Go Back</button></a>
     <h1 style="margin-top:80px;">Edit Post</h1>
     {!! Form::open(['action' => ['PostsController@update', $post->id], 'method' => 'POST']) !!}
         <div class="form-group">
