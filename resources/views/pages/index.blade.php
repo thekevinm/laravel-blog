@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="jumbotron text-center" style="margin-top:180px;">
+    <div class="jumbotron text-center" style="margin-top:80px;">
         <h1>{{$title}}</h1>
         <br>
         <h4>Login or Register to create posts!</h4>
